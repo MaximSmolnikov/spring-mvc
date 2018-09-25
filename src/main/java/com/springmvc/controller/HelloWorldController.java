@@ -8,6 +8,6 @@ public class HelloWorldController {
 
     @RequestMapping("/")
     public String helloWorld() {
-        return "Hello world! This is Spring MVC app.";
+        return "Hello world! This is Spring MVC app and I'm without web.xml!";
     }
 }
